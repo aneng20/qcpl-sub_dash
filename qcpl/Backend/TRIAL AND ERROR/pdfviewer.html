@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="pdfviewer.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload PDF File</h2>
+        <form method="post" action="pdfviewer.php" enctype="multipart/form-data">
+            <input type="file" name="uploaded_file" accept=".pdf" required>
+            <button type="submit">Upload and View</button>
+        </form>
+    </div>
+</body>
+</html>

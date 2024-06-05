@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sendfileuser1</title>
+</head>
+<body>
+    <h2>Upload Files</h2>
+    <form action="sendfileuser1.php" method="post" enctype="multipart/form-data">
+        Select Files to Upload (max 50MB each):
+        <input type="file" name="fileToUpload[]" id="fileToUpload" multiple required>
+        <input type="submit" value="Upload Files" name="submit">
+    </form>
+</body>
+</html>

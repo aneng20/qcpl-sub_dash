@@ -1,0 +1,14 @@
+if else after boss 1 completed it will automatically updated to outgoing
+
+sessions
+session(welcome user)
+account validation
+password ""(galing database sir recom)
+
+create account per division and section
+
+
+
+to do:
+the output in dashboard depends on division of the account login
+the output in accounts depends on division of the account login4
